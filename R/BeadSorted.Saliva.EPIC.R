@@ -36,5 +36,4 @@
 #' cell type composition in saliva using these data
 #' }
 #'
-
 "BeadSorted.Saliva.EPIC"

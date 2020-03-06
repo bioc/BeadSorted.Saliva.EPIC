@@ -13,5 +13,5 @@
 #' \item{low}{minimum methylation beta across all samples}
 #' \item{high}{maximum methylation beta across all samples}
 #'}
-data("BeadSorted.Saliva.EPIC.compTable")
+"BeadSorted.Saliva.EPIC.compTable"
 
