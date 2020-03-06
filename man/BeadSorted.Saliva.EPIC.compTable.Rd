@@ -4,8 +4,16 @@
 \name{BeadSorted.Saliva.EPIC.compTable}
 \alias{BeadSorted.Saliva.EPIC.compTable}
 \title{Cell Composition Association Table}
-\format{Name: CpG identifier from Illumina EPIC \n
-other stuff}
+\format{A data frame with 795694 rows and 7 columns:
+\describe{
+\item{Probe.Name}{CpG identifier}
+\item{T.statistic}{t-statistic for t-test between large and CD45 cell compositions}
+\item{p.value}{p-value corresponding to the t-statistic}
+\item{Average.Methylation.CD45}{average methylation beta value across CD45 cell samples}
+\item{Average.Methylation.Large}{average methylation beta value across large cell samples}
+\item{low}{minimum methylation beta across all samples}
+\item{high}{maximum methylation beta across all samples}
+}}
 \description{
 Association of each probe in the Illumina EPIC with saliva cell composition.
 }

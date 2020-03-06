@@ -4,7 +4,7 @@
 \name{BeadSorted.Saliva.EPIC}
 \alias{BeadSorted.Saliva.EPIC}
 \title{BeadSorted.Saliva.EPIC}
-\format{A class: RGChannelSet, dimensions: 1051815 60}
+\format{An RGChannelSet, dimensions: 1051815 60}
 \source{
 \url{https://www.ncbi.nig.gov/geo/query/our_geo_location_for_idats}
 The BeadSorted.Saliva.EPIC object is based in samples assayed
@@ -30,8 +30,7 @@ However, this package contains novel data from child saliva samples.
 
 Researchers may find this package useful as these samples represent
 different cellular populations (Immune and Epithelial Cells) from
-cell sorted saliva generated with high purity estimates.
-(Can include mentioin of accuracy test we performed)
+cell sorted saliva.
 
 Implementation of cell type estimation using these data can be performed
 using the \pkg{ewastools} packages function estimateLC().
