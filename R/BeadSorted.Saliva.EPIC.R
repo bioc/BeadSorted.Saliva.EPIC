@@ -1,11 +1,10 @@
 #' BeadSorted.Saliva.EPIC
 #' @import minfi
 #' @description
-#' Illumina Human Methylation data from EPIC on immunomagnetic ###(appropriate term?)###
-#' sorted child
+#' Illumina Human Methylation data from EPIC on immunomagnetic sorted child
 #' blood cell populations. The BeadSorted.Saliva.EPIC package contains Illumina
 #' HumanMethylationEPIC (\dQuote{EPIC})) DNA methylation microarray data
-#' from the ###(Bakulski lab? | Lauren?) (manuscript status) ###, consisting of 38
+#' from Middleton et al., consisting of 38
 #' ###(got number from manuscript, is correct?)###
 #' magnetic bead sorted blood cell references and 22 samples, formatted as an
 #' RGChannelSet object for  integration and normalization using
@@ -25,10 +24,10 @@
 #' @format An RGChannelSet, dimensions: 1051815 60
 #' @source \url{https://www.ncbi.nig.gov/geo/query/our_geo_location_for_idats}
 #' The BeadSorted.Saliva.EPIC object is based in samples assayed
-#' by Lauren Middleton and colleagues; ###(Manuscript status?)###
+#' by Lauren Middleton and colleagues; (Manuscript Submitted)
 #' @seealso
 #' References \enumerate{
-#' \item ###Our paper if it is out###
+#' \item Middleton et al. (2020) \emph{###Citation for our awesome paper###}
 #' \item EA Houseman et al. (2012) \emph{DNA methylation arrays as surrogate
 #' measures of cell mixture distribution}. BMC Bioinformatics 13, 86.
 #' doi:10.1186/1471-2105-13-86.
@@ -36,4 +35,10 @@
 #' cell type composition in saliva using these data
 #' }
 #'
+#' @examples
+#' library(ExperimentHub)
+#' query(ExperimentHub(), "BeadSorted.Saliva.EPIC")
+#'
+#' BeadSorted.Saliva.EPIC <- ExperimentHub()[["OUR IDENTIFIER NUMBER"]]
+#' BeadSorted.Saliva.EPIC
 "BeadSorted.Saliva.EPIC"
