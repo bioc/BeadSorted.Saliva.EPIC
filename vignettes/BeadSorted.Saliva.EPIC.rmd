@@ -18,16 +18,25 @@ knitr::opts_chunk$set(
 ```
 
 # Overview
-The **BeadSorted.Saliva.EPIC** data package contains publically available Illumina Human methylation data from the EPIC chip from child saliva samples. It includes an RGChannelSet, a comparison table with degree of association between cell type and samples, and cell proportion estimates within our samples as calculated by the ewastools implementation of the Houseman algorithm. This dataset is novel for cell count estimations in saliva and may be useful to end users for estimating and controlling for cell-type heterogeneity in their study samples.
+The **BeadSorted.Saliva.EPIC** data package contains publically available Illumina Human methylation data from EPIC chip saliva samples assayed by Middleton et al.(manuscript submitted). It includes an RGChannelSet, a comparison table with degree of association between cell type and samples, and cell proportion estimates within our samples as calculated by the ewastools implementation of the Houseman algorithm. This dataset is novel for cell count estimations in saliva and may be useful to end users for estimating and controlling for cell-type heterogeneity in their study samples.
 
 # RGChannelSet
-This package includes the *BeadSorted.Saliva.EPIC* RGChannelSet object. This dataset contains 60 samples, all derived from whole saliva taken from 22 children, with some being separated into pure cellular populations using bead sorting. The 60 samples consist of CD45 positive cells, epithelial cells, large cells, whole cells, and samples taken directly from the oragene kit. 
+This package includes the *BeadSorted.Saliva.EPIC* RGChannelSet object. This dataset contains 60 samples, all derived from whole saliva taken from 22 children, with some being separated into pure cellular populations using bead sorting. The 60 samples consist of immune cells, epithelial cells, whole cells, and samples taken directly from the oragene kit. The RGChannelSet is hosted on experiment hub and the raw idats are hosted on GEO.
+
+```{r eval = F}
+library(ExperimentHub)
+
+BeadSorted.Saliva.EPIC <- ExperimentHub()[["OUR NUMBER"]]
+BeadSorted.Saliva.EPIC
+```
+
 
 # Table
 The *BeadSorted.Saliva.EPIC.compTable* contains the degree of association between each CpG and cell type on the EPIC chip as well as a t-statistc and corresponding *p* value for the t-test comparing the two cell types.
 
 # Estimates
 The *BeadSorted.Saliva.EPIC.Estimates* contains estimated epithelial and immune cell composition for each sample based on the Houseman algorithm. This algorithm is implemented in the *estimateLC* function from the **ewastools** package. 
+
 
 
 
