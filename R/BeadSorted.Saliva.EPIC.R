@@ -1,18 +1,16 @@
 #' BeadSorted.Saliva.EPIC
 #' @import minfi
 #' @description
-#' Illumina Human Methylation data from EPIC on immunomagnetic sorted child
-#' blood cell populations. The BeadSorted.Saliva.EPIC package contains Illumina
+#' Illumina Human Methylation data from EPIC on cell sorted child saliva cell populations.
+#' The BeadSorted.Saliva.EPIC package contains Illumina
 #' HumanMethylationEPIC (\dQuote{EPIC})) DNA methylation microarray data
 #' from Middleton et al., consisting of 38
-#' ###(got number from manuscript, is correct?)###
-#' magnetic bead sorted blood cell references and 22 samples, formatted as an
-#' RGChannelSet object for  integration and normalization using
-#' most of the existing Bioconductor packages.
+#' magnetic bead sorted saliva cell references from 22 samples, formatted as an
+#' RGChannelSet object for easy integretion with other bioconductor packages.
 #'
 #' This package contains data similar to other data packages for cell type
-#' deconvolutions, such as FlowSorted.Blood.450k and FlowSorted.Blood.EPIC.
-#' However, this package contains novel data from child saliva samples.
+#' deconvolution, such as FlowSorted.Blood.450k and FlowSorted.Blood.EPIC.
+#' However, this package provides useful novel data from saliva biosamples.
 #'
 #' Researchers may find this package useful as these samples represent
 #' different cellular populations (Immune and Epithelial Cells) from
@@ -41,4 +39,5 @@
 #'
 #' BeadSorted.Saliva.EPIC <- ExperimentHub()[["OUR IDENTIFIER NUMBER"]]
 #' BeadSorted.Saliva.EPIC
+#'
 "BeadSorted.Saliva.EPIC"
