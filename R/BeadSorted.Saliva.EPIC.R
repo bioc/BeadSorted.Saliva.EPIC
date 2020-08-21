@@ -29,7 +29,7 @@
 #' \item EA Houseman et al. (2012) \emph{DNA methylation arrays as surrogate
 #' measures of cell mixture distribution}. BMC Bioinformatics 13, 86.
 #' doi:10.1186/1471-2105-13-86.
-#' \item \pkg{ewastools} package with implementation for estimating
+#' \item \pkg{ewastools} package with implementation f or estimating
 #' cell type composition in saliva using these data
 #' }
 #'
