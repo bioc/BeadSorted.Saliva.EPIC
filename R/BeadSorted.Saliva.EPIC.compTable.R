@@ -1,6 +1,6 @@
 #' @name BeadSorted.Saliva.EPIC.compTable
 #' @docType data
-#' @title Cell Composition Association Table
+#' @title Cell Proportion Association Table
 #' @description
 #' Association of each probe in the Illumina EPIC array with saliva cell type composition.
 #' @format A data frame with 795694 rows and 7 columns
