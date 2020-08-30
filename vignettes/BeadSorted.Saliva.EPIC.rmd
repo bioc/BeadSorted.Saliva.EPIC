@@ -32,13 +32,7 @@ BeadSorted.Saliva.EPIC
 
 
 # Table
-The *BeadSorted.Saliva.EPIC.compTable* contains the degree of association between each CpG and cell type from EPIC as well as a t-statistc and corresponding *p* value for the t-test comparing the two cell types.
+The *BeadSorted.Saliva.EPIC.compTable* contains comparisons of methylation of each quality control passing EPIC CpG between the 20 epithelial cell samples and the 18 immune cell samples as well as basic summary statistics. Comparisons include t-test statistic and it's corresponding p-value. Summary statistics include the minimum and maximum beta methylation value for each probe and the average methylation value across epithelial cells and across immune cells.
 
 # Estimates
-The *BeadSorted.Saliva.EPIC.Estimates* contains estimated epithelial and immune cell composition for each sample based on the Houseman algorithm. This algorithm is implemented in the *estimateLC* function from the **ewastools** package. 
-
-
-
-
-
-
+The *BeadSorted.Saliva.EPIC.Estimates* contains estimated epithelial and immune cell proportions for each sample as computed with the **ewastools** function *estimateLC()*. The proportions are computed by a reference dataset created from the idats corresponding to epithelial and immune cell samples. Coefficients are estimated using the Houseman algorithm.
