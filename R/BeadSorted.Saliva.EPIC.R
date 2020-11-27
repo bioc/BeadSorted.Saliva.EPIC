@@ -1,5 +1,7 @@
 #' BeadSorted.Saliva.EPIC
 #' @import minfi
+#' @import ExperimentHub
+#' @import IlluminaHumanMethylationEPICanno.ilm10b4.hg19
 #' @description
 #' Illumina Human Methylation data from EPIC on cell-sorted child saliva cell populations.
 #' The BeadSorted.Saliva.EPIC package contains Illumina
@@ -13,31 +15,30 @@
 #' However, this package provides novel data from saliva biosamples.
 #'
 #' Researchers may find this package useful as these samples represent
-#'cell populations (immune and epithelial Cells) from
+#' cell populations (immune and epithelial cells) from
 #' cell-sorted saliva.
 #'
 #' Implementation of cell-type estimation using these data can be performed
 #' using the \pkg{ewastools} package's function estimateLC().
 #'
 #' @format An RGChannelSet, dimensions: 1051815 60
-#' @source \url{https://www.ncbi.nig.gov/geo/query/our_geo_location_for_idats}
+#' @source \url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147318}
 #' The BeadSorted.Saliva.EPIC object is based on samples assayed
-#' by Lauren Middleton and colleagues; (Manuscript Submitted)
+#' by Lauren Middleton and colleagues; (Manuscript under review)
 #' @seealso
 #' References \enumerate{
-#' \item Middleton et al. (2020) \emph{###Citation for our awesome paper###}
 #' \item EA Houseman et al. (2012) \emph{DNA methylation arrays as surrogate
 #' measures of cell mixture distribution}. BMC Bioinformatics 13, 86.
 #' doi:10.1186/1471-2105-13-86.
-#' \item \pkg{ewastools} package with implementation f or estimating
-#' cell type composition in saliva using these data
+#' \item \pkg{ewastools} package with implementation for estimating
+#' cell type proportions in saliva using these data
 #' }
 #'
 #' @examples
 #' library(ExperimentHub)
 #' query(ExperimentHub(), "BeadSorted.Saliva.EPIC")
 #'
-#' BeadSorted.Saliva.EPIC <- ExperimentHub()[["OUR IDENTIFIER NUMBER"]]
+#' BeadSorted.Saliva.EPIC <- ExperimentHub()[["OURID"]]
 #' BeadSorted.Saliva.EPIC
 #'
 "BeadSorted.Saliva.EPIC"
