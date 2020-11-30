@@ -3,7 +3,7 @@
 \docType{data}
 \name{BeadSorted.Saliva.EPIC.compTable}
 \alias{BeadSorted.Saliva.EPIC.compTable}
-\title{Cell Composition Association Table}
+\title{Cell Proportion Association Table}
 \format{
 A data frame with 795694 rows and 7 columns
 \describe{

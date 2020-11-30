@@ -1,7 +1,6 @@
 #' BeadSorted.Saliva.EPIC
 #' @import minfi
 #' @import ExperimentHub
-#' @import IlluminaHumanMethylationEPICanno.ilm10b4.hg19
 #' @description
 #' Illumina Human Methylation data from EPIC on cell-sorted child saliva cell populations.
 #' The BeadSorted.Saliva.EPIC package contains Illumina

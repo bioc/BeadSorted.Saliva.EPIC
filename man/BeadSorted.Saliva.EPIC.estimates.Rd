@@ -3,7 +3,7 @@
 \docType{data}
 \name{BeadSorted.Saliva.EPIC.estimates}
 \alias{BeadSorted.Saliva.EPIC.estimates}
-\title{Estimated cell composition for samples}
+\title{Estimated cell proportion for samples}
 \format{
 A data frame with 60 rows and 4 columns
 \describe{
@@ -17,7 +17,7 @@ A data frame with 60 rows and 4 columns
 BeadSorted.Saliva.EPIC.estimates
 }
 \description{
-Cell type proportion estimates for each of 60 samples from 22 children.
+Cell-type proportion estimates for each of 60 samples from 22 children.
 These 60 samples consisted of 18 epithelial cell samples, 20 immune cell
 samples, 4 oragene samples, and 18 whole saliva samples.
 Proportions were estimated using the estimateLC function from the \pkg{ewastools}
@@ -30,7 +30,7 @@ References \enumerate{
 measures of cell mixture distribution}. BMC Bioinformatics 13, 86.
 doi:10.1186/1471-2105-13-86.
 \item \pkg{ewastools} package with implementation for estimating
-cell type composition in saliva using these data
+cell-type proportion in saliva using these data
 }
 }
 \keyword{datasets}
