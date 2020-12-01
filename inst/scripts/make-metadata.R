@@ -12,21 +12,23 @@ metadat <- data.frame(
                          "using most of the existing Bioconductor packages. ",
                          "RGChannelSet R data representation derived from ",
                          "GEO accession GSE147318.")),
-  BiocVersion = c("3.7"),
-  Genome = rep("hg19", 1),
-  SourceType = rep("tar.gz", 1),
-  SourceUrl = "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147318",
+  BiocVersion = c("3.12", "3.12"),
+  Genome = c("hg19", "hg19"),
+  SourceType = c("tar.gz", "tar.gz"),
+  SourceUrl = c("https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147318",
+                "https://github.com/bakulskilab/BeadSorted.Saliva.EPIC"),
   SourceVersion = "V1",
   Species = "Homo sapiens",
   TaxonomyId = 9606,
-  Coordinate_1_based = T,
+  Coordinate_1_based = TRUE,
   DataProvider = "GEO",
   Maintainer = "Jonah Fisher <jazzfish@umich.edu>",
-  RDataClass = c("RGChannelSet") ,
-  DispatchClass = c(rep("Rda",1)),
-  RDataPath = c(paste0("BeadSorted.Saliva.EPIC/BeadSorted.Saliva.EPIC.rda")),
-  Tags = c("BeadSorted.Saliva.EPIC"),
+  RDataClass = c("RGChannelSet", "data.frame") ,
+  DispatchClass = c("rda", "rda"),
+  RDataPath = c(paste0("BeadSorted.Saliva.EPIC/BeadSorted.Saliva.EPIC.rda"),
+                "BeadSorted.Saliva.EPIC/BeadSorted.Saliva.EPIC.compTable.rda"),
+  Tags = c(""),
   Notes = c("")
 )
 
-write.csv(metadat, file = "inst/extdata/metadata.csv", row.names = F)
+write.csv(metadat, file = "inst/extdata/metadata.csv", row.names = FALSE)

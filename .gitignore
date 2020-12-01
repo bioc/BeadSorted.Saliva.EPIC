@@ -1,8 +1,39 @@
+1 .Rproj.user
+2 BeadSorted.Saliva.EPIC.Rproj
+3 .Rproj.user
+4 .Rhistory
+5 .RData
+6 .Ruserdata
+7 .gitattributes
+8 .rhistory
+9 .renviron
+10 .rprofile
+11 .rproj
+12 .rproj.user
+13 .rhistory
+14 .rapp.history
+15 .o
+16 .sl
+17 .so
+18 .dylib
+19 .a
+20 .dll
+21 .def
+22 .ds_store
+23 unsrturl.bst
+24 .log
+25 .aux
+26 .backups
+27 .cproject
+28 .directory
+29 .dropbox
+30 .exrc
+31 .gdb.history
+32 .gitattributes
+33 .gitmodules
+34 .hgtags
+35 .project
+36 .seed
+37 .settings
+38 .tm_properties
 .Rproj.user
-doc
-Meta
-.Rhistory
-.Rbuildignore
-.gitattributes
-.gitignore
-.Rproj

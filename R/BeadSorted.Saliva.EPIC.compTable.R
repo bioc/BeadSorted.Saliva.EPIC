@@ -13,5 +13,13 @@
 #' \item{low}{minimum methylation beta across all samples}
 #' \item{high}{maximum methylation beta across all samples}
 #'}
+#'
+#' @examples
+#' library(ExperimentHub)
+#' query(ExperimentHub(), "BeadSorted.Saliva.EPIC.compTable")
+#'
+#' BeadSorted.Saliva.EPIC.compTable <- ExperimentHub()[["OURID"]]
+#' BeadSorted.Saliva.EPIC.compTable
+#'
 "BeadSorted.Saliva.EPIC.compTable"
 
