@@ -3,7 +3,7 @@
 #=====================================#
 
 metadat <- data.frame(
-  Title = c("BeadSorted.Saliva.EPIC", "BeadSorted.Saliva.EPIC.compTable"),
+  Title = c("BeadSorted.Saliva.EPIC"),
   Description = c(paste0("The BeadSorted.Saliva.EPIC package contains ",
                          "Illumina HumanMethylationEPIC ('EPIC')) DNA methylation microarray data from ",
                          "the Lauren Middleton and colleagues (manuscript submitted), consisting of ",
