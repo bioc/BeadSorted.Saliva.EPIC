@@ -12,7 +12,7 @@ metadat <- data.frame(
                          "using most of the existing Bioconductor packages. ",
                          "RGChannelSet R data representation derived from ",
                          "GEO accession GSE147318.")),
-  BiocVersion = c("3.12", "3.12"),
+  BiocVersion = c("3.13", "3.13"),
   Genome = c("hg19", "hg19"),
   SourceType = c("tar.gz", "tar.gz"),
   SourceUrl = c("https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147318",
