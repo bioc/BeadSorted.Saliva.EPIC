@@ -16,7 +16,6 @@
 #' package.
 #' @seealso
 #' References \enumerate{
-#' \item Middleton et al. (2020) \emph{###Citation for our awesome paper###}
 #' \item EA Houseman et al. (2012) \emph{DNA methylation arrays as surrogate
 #' measures of cell mixture distribution}. BMC Bioinformatics 13, 86.
 #' doi:10.1186/1471-2105-13-86.

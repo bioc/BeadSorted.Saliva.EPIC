@@ -5,7 +5,7 @@
 #' Illumina Human Methylation data from EPIC on cell-sorted child saliva cell populations.
 #' The BeadSorted.Saliva.EPIC package contains Illumina
 #' HumanMethylationEPIC (\dQuote{EPIC})) DNA methylation microarray data
-#' from Middleton et al., consisting of 38
+#' from Middleton and colleagues, consisting of 38
 #' magnetic bead sorted saliva cell references from 22 samples, formatted as an
 #' RGChannelSet object for easy integretion with other bioconductor packages.
 #'

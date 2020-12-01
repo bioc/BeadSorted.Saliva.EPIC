@@ -5,7 +5,7 @@
 metadat <- data.frame(
   Title = c("BeadSorted.Saliva.EPIC"),
   Description = c(paste0("The BeadSorted.Saliva.EPIC package contains ",
-                         "Illumina HumanMethylationEPIC ("EPIC")) DNA methylation microarray data from ",
+                         "Illumina HumanMethylationEPIC ('EPIC')) DNA methylation microarray data from ",
                          "the Lauren Middleton and colleagues (manuscript submitted), consisting of ",
                          "38 magnetic sorted Saliva cell references and 22 samples, ",
                          "formatted as an RGChannelSet object (minfi) for integration and normalization ",
@@ -13,8 +13,8 @@ metadat <- data.frame(
                          "RGChannelSet R data representation derived from ",
                          "GEO accession GSE147318.")),
   BiocVersion = c("3.7"),
-  Genome = rep("hg19", 1), 
-  SourceType = rep("tar.gz", 1), 
+  Genome = rep("hg19", 1),
+  SourceType = rep("tar.gz", 1),
   SourceUrl = "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147318",
   SourceVersion = "V1",
   Species = "Homo sapiens",
@@ -25,8 +25,8 @@ metadat <- data.frame(
   RDataClass = c("RGChannelSet") ,
   DispatchClass = c(rep("Rda",1)),
   RDataPath = c(paste0("BeadSorted.Saliva.EPIC/BeadSorted.Saliva.EPIC.rda")),
-  Tags = "",
+  Tags = c("BeadSorted.Saliva.EPIC"),
   Notes = c("")
 )
 
-write.csv(metadat, file = "metadata.csv", row.names = F)
+write.csv(metadat, file = "inst/extdata/metadata.csv", row.names = F)
