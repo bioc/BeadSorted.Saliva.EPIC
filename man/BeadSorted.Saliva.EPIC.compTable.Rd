@@ -22,4 +22,12 @@ BeadSorted.Saliva.EPIC.compTable
 \description{
 Association of each probe in the Illumina EPIC array with saliva cell type composition.
 }
+\examples{
+library(ExperimentHub)
+query(ExperimentHub(), "BeadSorted.Saliva.EPIC.compTable")
+
+BeadSorted.Saliva.EPIC.compTable <- ExperimentHub()[["OURID"]]
+BeadSorted.Saliva.EPIC.compTable
+
+}
 \keyword{datasets}
