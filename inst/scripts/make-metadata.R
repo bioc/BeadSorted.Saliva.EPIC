@@ -30,7 +30,7 @@ metadat <- data.frame(
   DataProvider = "GEO",
   Maintainer = "Jonah Fisher <jazzfish@umich.edu>",
   RDataClass = c("RGChannelSet", "data.frame") ,
-  DispatchClass = c("rda", "rda"),
+  DispatchClass = c("Rda", "Rda"),
   RDataPath = c(paste0("BeadSorted.Saliva.EPIC/BeadSorted.Saliva.EPIC.rda"),
                 "BeadSorted.Saliva.EPIC/BeadSorted.Saliva.EPIC.compTable.rda"),
   Tags = c(""),
