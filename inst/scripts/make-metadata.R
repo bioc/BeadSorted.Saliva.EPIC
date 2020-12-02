@@ -3,7 +3,7 @@
 #=====================================#
 
 metadat <- data.frame(
-  Title = c("BeadSorted.Saliva.EPIC"),
+  Title = c("BeadSorted.Saliva.EPIC", "BeadSorted.Saliva.EPIC.compTable"),
   Description = c(paste0("The BeadSorted.Saliva.EPIC package contains ",
                          "Illumina HumanMethylationEPIC ('EPIC')) DNA methylation microarray data from ",
                          "the Lauren Middleton and colleagues (manuscript submitted), consisting of ",
@@ -11,7 +11,13 @@ metadat <- data.frame(
                          "formatted as an RGChannelSet object (minfi) for integration and normalization ",
                          "using most of the existing Bioconductor packages. ",
                          "RGChannelSet R data representation derived from ",
-                         "GEO accession GSE147318.")),
+                         "GEO accession GSE147318."),
+                  paste0("The BeadSorted.Saliva.EPIC.compTable object",
+                         "contains methylation comparisons for Illumina",
+                         "HumanMethylationEPIC ('EPIC')) DNA methylation",
+                         "microarray data between epithelial and immune",
+                         "cell lines")
+                  ),
   BiocVersion = c("3.13", "3.13"),
   Genome = c("hg19", "hg19"),
   SourceType = c("tar.gz", "tar.gz"),
