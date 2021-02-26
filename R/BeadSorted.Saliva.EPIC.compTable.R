@@ -18,7 +18,7 @@
 #' library(ExperimentHub)
 #' query(ExperimentHub(), "BeadSorted.Saliva.EPIC.compTable")
 #'
-#' BeadSorted.Saliva.EPIC.compTable <- ExperimentHub()[["OURID"]]
+#' BeadSorted.Saliva.EPIC.compTable <- ExperimentHub()[["EH4540"]]
 #' BeadSorted.Saliva.EPIC.compTable
 #'
 "BeadSorted.Saliva.EPIC.compTable"

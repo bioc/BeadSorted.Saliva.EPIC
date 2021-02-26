@@ -10,7 +10,7 @@ An RGChannelSet, dimensions: 1051815 60
 \source{
 \url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147318}
 The BeadSorted.Saliva.EPIC object is based on samples assayed
-by Lauren Middleton and colleagues; (Manuscript under review)
+by Lauren Middleton et a. (2021).
 }
 \usage{
 BeadSorted.Saliva.EPIC
@@ -38,17 +38,11 @@ using the \pkg{ewastools} package's function estimateLC().
 library(ExperimentHub)
 query(ExperimentHub(), "BeadSorted.Saliva.EPIC")
 
-BeadSorted.Saliva.EPIC <- ExperimentHub()[["OURID"]]
+BeadSorted.Saliva.EPIC <- ExperimentHub()[["EH4539"]]
 BeadSorted.Saliva.EPIC
 
 }
 \seealso{
-References \enumerate{
-\item EA Houseman et al. (2012) \emph{DNA methylation arrays as surrogate
-measures of cell mixture distribution}. BMC Bioinformatics 13, 86.
-doi:10.1186/1471-2105-13-86.
-\item \pkg{ewastools} package with implementation for estimating
-cell type proportions in saliva using these data
-}
+
 }
 \keyword{datasets}

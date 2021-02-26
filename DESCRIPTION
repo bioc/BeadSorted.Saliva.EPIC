@@ -3,14 +3,14 @@ Title: Illumina EPIC data on BeadSorted adult saliva cells
 Version: 0.99.1
 Authors@R:
     c(person("Jonah", "Fisher",
-           role = c("author", "creator"),
+           role = c("aut", "cre"),
            email = "jazzfish@umich.edu"),
     person("Kelly", "Bakulski",
-		   role = "author",
+		   role = "aut",
 		   email = "bakulski@umich.edu"),
     person("Lauren", "Middleton",
-    		   role = "author",
-		   email = "lavassar@umich.edu")
+    		   role = "aut",
+		   email = "lavassar@umich.edu"))
 Description: Raw data objects used to estimate saliva cell 
 	proportion estimates in ewastools. The FlowSorted.Saliva.EPIC
 	object is constructed from saples assayed by Lauren Middleton 
@@ -23,6 +23,4 @@ Encoding: UTF-8
 LazyData: true
 VignetteBuilder: knitr
 RoxygenNote: 7.1.1
-Suggests: 
-    testthat
-    vignetteBuilder
+Suggests: testthat, vignetteBuilder
