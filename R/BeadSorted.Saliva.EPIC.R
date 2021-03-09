@@ -18,7 +18,7 @@
 #' cell-sorted saliva.
 #'
 #' Implementation of cell-type estimation using these data can be performed
-#' using the \pkg{ewastools} package's function estimateLC().
+#' using the \pkg{ewastools} package's function estimateLC.
 #'
 #' @format An RGChannelSet, dimensions: 1051815 60
 #' @source \url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147318}
@@ -38,7 +38,6 @@
 #' doi:10.1186/1471-2105-13-86.
 #' \item \pkg{ewastools} package with implementation for estimating
 #' cell type proportions in saliva using these data
-#' }
 #'
 #' @examples
 #' library(ExperimentHub)
