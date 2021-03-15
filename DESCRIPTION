@@ -1,6 +1,6 @@
 Package: BeadSorted.Saliva.EPIC
 Title: Illumina EPIC data on BeadSorted adult saliva cells
-Version: 0.99.2
+Version: 0.99.3
 Authors@R:
     c(person("Jonah", "Fisher",
            role = c("aut", "cre"),
@@ -23,4 +23,4 @@ Encoding: UTF-8
 LazyData: true
 VignetteBuilder: knitr
 RoxygenNote: 7.1.1
-Suggests: testthat, knitr
+Suggests: knitr
