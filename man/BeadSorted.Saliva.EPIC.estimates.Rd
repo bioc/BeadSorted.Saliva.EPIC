@@ -8,7 +8,6 @@
 A data frame with 60 rows and 4 columns
 \describe{
 \item{sampid}{Sample identifier}
-\item{sampleType}{Type of sample from epithelial, immune, whole, and oragene}
 \item{immuneCells}{Estimated proportion of immune cells in sample}
 \item{epithelialCells}{Estimate proportion of epithelial cells in sample}
 }
@@ -17,9 +16,7 @@ A data frame with 60 rows and 4 columns
 BeadSorted.Saliva.EPIC.estimates
 }
 \description{
-Cell-type proportion estimates for each of 60 samples from 22 children.
-These 60 samples consisted of 18 epithelial cell samples, 20 immune cell
-samples, 4 oragene samples, and 18 whole saliva samples.
+Cell-type proportion estimates for each of 80 samples from 22 children.
 Proportions were estimated using the estimateLC function from the \pkg{ewastools}
 package.
 }

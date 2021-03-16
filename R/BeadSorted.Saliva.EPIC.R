@@ -46,4 +46,4 @@
 #' BeadSorted.Saliva.EPIC <- ExperimentHub()[["EH4539"]]
 #' BeadSorted.Saliva.EPIC
 #'
-"BeadSorted.Saliva.EPIC"
+NULL

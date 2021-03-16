@@ -16,9 +16,6 @@ A data frame with 795694 rows and 7 columns
 \item{high}{maximum methylation beta across all samples}
 }
 }
-\usage{
-BeadSorted.Saliva.EPIC.compTable
-}
 \description{
 Association of each probe in the Illumina EPIC array with saliva cell type composition.
 }
@@ -30,4 +27,3 @@ BeadSorted.Saliva.EPIC.compTable <- ExperimentHub()[["EH4540"]]
 BeadSorted.Saliva.EPIC.compTable
 
 }
-\keyword{datasets}
