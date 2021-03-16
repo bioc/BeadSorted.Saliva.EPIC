@@ -1,4 +1,5 @@
-#' BeadSorted.Saliva.EPIC
+#' @name BeadSorted.Saliva.EPIC
+#' @title DNA Methylation RGChannelSet
 #' @import minfi
 #' @import ExperimentHub
 #' @description
