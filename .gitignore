@@ -33,6 +33,8 @@ unsrturl.bst
 .gitmodules
 .hgtags
 .project
+..Rcheck
+.log
 .seed
 .settings
 .tm_properties
