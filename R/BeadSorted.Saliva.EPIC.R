@@ -27,7 +27,7 @@
 #' by Lauren Middleton et a. (2021).
 #' @seealso
 #' References \enumerate{
-#' \item Lauren Y. M. Middleton, John Dou, Jonah Fisher, Jonathan A. Heiss,
+#' \item{lauren Y. M. Middleton, John Dou, Jonah Fisher, Jonathan A. Heiss,
 #'  Vy K. Nguyen, Allan C. Just, Jessica Faul, Erin B. Ware,
 #'  Colter Mitchell, Justin A. Colacino & Kelly M. Bakulski (2021) 
 #'  \emph{Saliva cell type DNA methylation reference panel for
@@ -39,7 +39,7 @@
 #' doi:10.1186/1471-2105-13-86.
 #' \item \pkg{ewastools} package with implementation for estimating
 #' cell type proportions in saliva using these data
-#'
+#' }
 #' @examples
 #' library(ExperimentHub)
 #' query(ExperimentHub(), "BeadSorted.Saliva.EPIC")
@@ -48,3 +48,4 @@
 #' BeadSorted.Saliva.EPIC
 #'
 NULL
+
