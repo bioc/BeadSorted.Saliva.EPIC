@@ -8,7 +8,7 @@
 #' \item{epithelialCells}{Estimate proportion of epithelial cells in sample}
 #' }
 #' @description
-#' Cell-type proportion estimates for each of 80 samples from 22 children.
+#' Cell-type proportion estimates for each of 60 samples from 22 children.
 #' Proportions were estimated using the estimateLC function from the \pkg{ewastools}
 #' package.
 #' @seealso
@@ -19,6 +19,6 @@
 #' \item \pkg{ewastools} package with implementation for estimating
 #' cell-type proportion in saliva using these data
 #' }
-#'
+#' @seealso \url{https://github.com/hhhh5/ewastools}
 "BeadSorted.Saliva.EPIC.estimates"
 

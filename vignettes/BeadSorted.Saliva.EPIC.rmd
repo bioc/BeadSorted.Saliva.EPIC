@@ -51,7 +51,7 @@ head(BeadSorted.Saliva.EPIC.compTable)
 
 # Estimates
 
-The *BeadSorted.Saliva.EPIC.Estimates* contains estimated epithelial and immune cell proportions for each sample as computed with the **ewastools** function *estimateLC()*. The proportions are computed by a reference dataset created from the idats corresponding to epithelial and immune cell samples. Coefficients are estimated using the Houseman algorithm.
+The *BeadSorted.Saliva.EPIC.Estimates* contains estimated epithelial and immune cell proportions for each sample as computed with the [**ewastools**](https://github.com/hhhh5/ewastools) function *estimateLC()*. The proportions are computed by a reference dataset created from the idats corresponding to epithelial and immune cell samples. Coefficients are estimated using the Houseman algorithm.
 
 ```{r, eval = FALSE}
 head(BeadSorted.Saliva.EPIC.estimates)

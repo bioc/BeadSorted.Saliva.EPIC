@@ -40,6 +40,7 @@
 #' \item \pkg{ewastools} package with implementation for estimating
 #' cell type proportions in saliva using these data
 #' }
+#' @seealso \url{https://github.com/hhhh5/ewastools}
 #' @examples
 #' library(ExperimentHub)
 #' query(ExperimentHub(), "BeadSorted.Saliva.EPIC")
