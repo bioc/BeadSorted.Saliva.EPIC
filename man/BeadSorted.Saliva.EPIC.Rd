@@ -53,4 +53,6 @@ doi:10.1186/1471-2105-13-86.
 \item \pkg{ewastools} package with implementation for estimating
 cell type proportions in saliva using these data
 }
+
+\url{https://github.com/hhhh5/ewastools}
 }

@@ -16,7 +16,7 @@ A data frame with 60 rows and 4 columns
 BeadSorted.Saliva.EPIC.estimates
 }
 \description{
-Cell-type proportion estimates for each of 80 samples from 22 children.
+Cell-type proportion estimates for each of 60 samples from 22 children.
 Proportions were estimated using the estimateLC function from the \pkg{ewastools}
 package.
 }
@@ -28,5 +28,7 @@ doi:10.1186/1471-2105-13-86.
 \item \pkg{ewastools} package with implementation for estimating
 cell-type proportion in saliva using these data
 }
+
+\url{https://github.com/hhhh5/ewastools}
 }
 \keyword{datasets}
