@@ -1,6 +1,6 @@
 Package: BeadSorted.Saliva.EPIC
 Title: Illumina EPIC data on BeadSorted adult saliva cells
-Version: 0.99.9
+Version: 0.99.10
 Authors@R:
     c(person("Jonah", "Fisher",
            role = c("aut", "cre"),
@@ -15,6 +15,7 @@ Description: Raw data objects used to estimate saliva cell
 	proportion estimates in ewastools. The FlowSorted.Saliva.EPIC
 	object is constructed from saples assayed by Lauren Middleton 
     	et. al. (2021).
+Maintainer: Jonah Fisher <jazzfish@umich.edu>
 Depends: R (>= 4.1), minfi(>= 1.36.0), ExperimentHub
 biocViews: ExperimentData, Homo_sapiens_Data, MicroarrayData, 
 	Genome, MethylationArrayData, ExperimentHub
