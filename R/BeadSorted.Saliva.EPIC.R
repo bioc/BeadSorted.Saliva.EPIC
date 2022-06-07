@@ -27,7 +27,7 @@
 #' by Lauren Middleton et a. (2021).
 #' @seealso
 #' References \enumerate{
-#' \item{lauren Y. M. Middleton, John Dou, Jonah Fisher, Jonathan A. Heiss,
+#' \item{Lauren Y. M. Middleton, John Dou, Jonah Fisher, Jonathan A. Heiss,
 #'  Vy K. Nguyen, Allan C. Just, Jessica Faul, Erin B. Ware,
 #'  Colter Mitchell, Justin A. Colacino & Kelly M. Bakulski (2021) 
 #'  \emph{Saliva cell type DNA methylation reference panel for
