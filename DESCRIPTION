@@ -1,8 +1,6 @@
 Package: BeadSorted.Saliva.EPIC
-
 Title: Illumina EPIC data on BeadSorted child saliva cells
-Version: 1.5.1
-
+Version: 1.5.2
 Authors@R:
     c(person("Jonah", "Fisher",
            role = c("aut", "cre"),

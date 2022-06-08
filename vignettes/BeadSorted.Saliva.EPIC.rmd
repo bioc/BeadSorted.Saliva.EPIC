@@ -30,7 +30,7 @@ hub <- ExperimentHub()
 
 query(hub, "BeadSorted.Saliva.EPIC")
 
-BeadSorted.Saliva.EPIC <- hub[["OUR NUMBER"]]
+BeadSorted.Saliva.EPIC <- hub[["EH4539"]]
 BeadSorted.Saliva.EPIC
 ```
 
@@ -45,7 +45,7 @@ hub <- ExperimentHub()
 
 query(hub, "BeadSorted.Saliva.EPIC.compTable")
 
-BeadSorted.Saliva.EPIC.compTable <- hub[["OUR NUMBER"]]
+BeadSorted.Saliva.EPIC.compTable <- hub[["EH4540"]]
 head(BeadSorted.Saliva.EPIC.compTable)
 ```
 
