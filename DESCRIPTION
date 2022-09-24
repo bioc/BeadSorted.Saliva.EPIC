@@ -13,7 +13,7 @@ Authors@R:
 		   email = "lavassar@umich.edu"))
 Description: Raw data objects used to estimate saliva cell 
 	proportion estimates in ewastools. The FlowSorted.Saliva.EPIC
-	object is constructed from saples assayed by Lauren Middleton 
+	object is constructed from samples assayed by Lauren Middleton 
     	et. al. (2021).
 Depends: R (>= 4.1), minfi(>= 1.36.0), ExperimentHub
 biocViews: ExperimentData, Homo_sapiens_Data, MicroarrayData, 
